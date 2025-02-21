@@ -12,6 +12,10 @@ services:
     ports:
       - "2095:2095"
       - "2096:2096"
+      - "20966:20966"
+      - "20955:20955"
+      - "209:209"
+      - "206:206"
     networks:
       - s-ui
     entrypoint: "./entrypoint.sh"
